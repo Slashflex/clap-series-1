@@ -22,9 +22,7 @@ function dealer() {
   }
 
   combined.sort(() => Math.random() - 0.5);
-  const result = [combined.slice(0, 5), combined.slice(5, 10)]
-
-	return result
+  return [combined.slice(0, 5), combined.slice(5, 10)]
 }
 
 export { dealer };
